@@ -1,0 +1,27 @@
+1. Instaled plagins:
+      Code Runner
+      JavaScript (ES6) code snippets
+      jshint
+      Live Server
+      Reactjs code snippets
+      Sass
+      ESLint
+2. Instaled git
+3. Instaled node.js
+4. Initilized jshint:  npm install -g jshint
+5. Set up jshint: {
+                   	"camelcase" : true,
+                   	"indent": 2,
+                   	"undef": true,
+                   	"quotmark": false,
+                   	"maxlen": 120,
+                   	"trailing": true,
+                   	"curly": true,
+                   	"strict": false,
+                   	"browser": true,
+                   	"devel": true,
+                   	"jquery": true,
+                    "esversion": 9,
+                    "node": true
+                   }
+
