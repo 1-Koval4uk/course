@@ -1,14 +1,19 @@
 'use strict'
- 
-console.log(4 + " - object");
-let incr = 10,
-    decr = 10;
-// ++incr;
-// --decr;
-console.log(++incr);
-console.log(--decr);
-console.log(5%2);
+ let numberOfFilms = prompt('How mane films u watched?', '0')
+ let personalMovieDB = {
+     count: numberOfFilms,
+     movies: {},
+     actors: {},
+     genres: [],
+     privat: false
+ }
 
-console.log(2 + 2 * 2 === 6);
+ let a = prompt('what is the name of film?', ''),
+     b = prompt('What rate you can do?', ''),
+     c = prompt('what is the name of film?', ''),
+     d = prompt('What rate you can do?', '');
+ 
+ personalMovieDB.movies[a] = b;
+ personalMovieDB.movies[c] = d;
 
     
