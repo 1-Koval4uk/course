@@ -1,19 +1,36 @@
 'use strict'
- let numberOfFilms = prompt('How mane films u watched?', '0')
- let personalMovieDB = {
-     count: numberOfFilms,
-     movies: {},
-     actors: {},
-     genres: [],
-     privat: false
- }
 
- let a = prompt('what is the name of film?', ''),
-     b = prompt('What rate you can do?', ''),
-     c = prompt('what is the name of film?', ''),
-     d = prompt('What rate you can do?', '');
- 
- personalMovieDB.movies[a] = b;
- personalMovieDB.movies[c] = d;
+if(4 == 9){
+    console.log('ok!');
+}else{
+    console.log('error');
+}
 
-    
+
+// if(num < 49){
+//     console.log('error');
+// }else if(num > 100){
+//     console.log('More');
+// }else{
+//     console.log('ok');
+// }
+
+
+// (num == 50) ? console.log('ok') : console.log('error');
+
+let num = 50; 
+
+switch(num){
+    case 49:
+        console.log('Wrong');
+        break;
+    case 100:
+        console.log('Wrong too');
+        break;
+    case 51:
+        console.log('Right');
+        break;
+    default:
+        console.log('Not now');
+        break;
+}
