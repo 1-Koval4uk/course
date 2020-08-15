@@ -25,3 +25,16 @@
                     "node": true
                    }
 
+
+
+
+Lesson #21:
+Masives:
+    .forEach();
+	Call as callback and has 3 parameters
+	forEach(function(serial number, item, massive){
+		//...//
+	})
+
+
+
