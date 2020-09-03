@@ -46,7 +46,7 @@ poster.style.backgroundImage = 'url("img/bg.jpg")';
 movieDB.movies.sort();
 
 //Deleted all html text on the page
-movieList.innerHTML = "";
+movieList.innerHTML = ""
 
 //Added html to the page from massive
 movieDB.movies.forEach((film, i) => {
